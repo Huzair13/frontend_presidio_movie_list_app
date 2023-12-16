@@ -1,0 +1,46 @@
+.custom-input {
+    border: 1px solid #000; /* Black border */
+  }
+.label_color{
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+}
+
+.title2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+}
+
+.custom-dark-olive {
+    background-color: #556B2F; 
+  }
+
+.custom-ml-auto {
+    margin-left: auto !important;
+  }
+
+
+.custom-navbar {
+    padding-left: 10px; 
+    padding-right: 10px; 
+  }
+  
+  .custom-navbar-brand {
+    padding-left: 10px; 
+  }
+  
+  .custom-navbar-content {
+    padding-left: 15px; 
+    padding-right: 15px; 
+  }
+  
+  
