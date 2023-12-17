@@ -47,7 +47,7 @@ class MovieList extends Component {
   fetchMovieData = async () => {
     const { movies } = this.props;
     const apiKey = '5aefe5fe';
-    const baseUrl = 'http://www.omdbapi.com/';
+    const baseUrl = 'https://www.omdbapi.com/';
   
     const moviePosters = await Promise.all(
       movies.map(async (movie) => {
