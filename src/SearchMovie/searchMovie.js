@@ -23,7 +23,7 @@ export default class Search extends Component {
 
   async fetchPoster(movieName) {
     const apiKey = '5aefe5fe';
-    const baseUrl = 'http://www.omdbapi.com/';
+    const baseUrl = 'https://www.omdbapi.com/';
 
     try {
       const response = await fetch(`${baseUrl}?apikey=${apiKey}&t=${encodeURIComponent(movieName)}&type=movie`);
